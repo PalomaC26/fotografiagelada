@@ -1,0 +1,67 @@
+@import url();
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    padding: 10px;
+    border-bottom: 1px solid blue;
+    text-align: right;
+}
+
+.ul{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.li{
+    color: black;
+    text-decoration: none;
+}
+
+.button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 3px 30px;
+    border-radius: 10px;
+}
+
+/*footer*/
+
+.main-footer{
+    background-color: var(--skyblue); /*aplicar cor no fundo do rodape*/
+    padding: 15px 0;
+}
+
+.main-footer-container{
+    display: flex; /*deixar tudo  na mesma linha*/
+    align-items: center; /*alinha todos os elementos*/
+    justify-content: space-between; /*colar nome de um lado e lista de icones do outro*/
+}
+
+.title-smaller{
+    font-family: "Raleway",sans-serif; /*pegar a fonte importada*/
+    color: black;
+    font-size: 26px;
+}
+
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-item{
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;    
+}
+
+.footer-item + .footer-item{
+    margin-left: 16px;
+}
